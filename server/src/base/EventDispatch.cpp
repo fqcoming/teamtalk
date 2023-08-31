@@ -354,7 +354,7 @@ void CEventDispatch::RemoveEvent(SOCKET fd, uint8_t socket_event)
 void CEventDispatch::StartDispatch(uint32_t wait_timeout)
 {
 	struct epoll_event events[1024];
-	int nfds = 0;
+	int nfds = 0;  // n fd s : n 个文件描述符 s
 
     if(running)
         return;

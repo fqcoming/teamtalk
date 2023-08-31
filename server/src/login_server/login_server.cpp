@@ -73,14 +73,14 @@ int main(int argc, char* argv[])
 
 	CConfigFileReader config_file("loginserver.conf");
 
-    char* client_listen_ip = config_file.GetConfigName("ClientListenIP");
-    char* str_client_port = config_file.GetConfigName("ClientPort");
-    char* http_listen_ip = config_file.GetConfigName("HttpListenIP");
-    char* str_http_port = config_file.GetConfigName("HttpPort");
+    char* client_listen_ip     = config_file.GetConfigName("ClientListenIP");
+    char* str_client_port      = config_file.GetConfigName("ClientPort");
+    char* http_listen_ip       = config_file.GetConfigName("HttpListenIP");
+    char* str_http_port        = config_file.GetConfigName("HttpPort");
 	char* msg_server_listen_ip = config_file.GetConfigName("MsgServerListenIP");
-	char* str_msg_server_port = config_file.GetConfigName("MsgServerPort");
-    char* str_msfs_url = config_file.GetConfigName("msfs");
-    char* str_discovery = config_file.GetConfigName("discovery");
+	char* str_msg_server_port  = config_file.GetConfigName("MsgServerPort");
+    char* str_msfs_url         = config_file.GetConfigName("msfs");
+    char* str_discovery        = config_file.GetConfigName("discovery");
 
 	if (!msg_server_listen_ip || !str_msg_server_port || !http_listen_ip
         || !str_http_port || !str_msfs_url || !str_discovery) {

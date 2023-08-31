@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zm22/0voice_im-master/server/src/login_server
+CMAKE_SOURCE_DIR = /home/zm22/teamtalk/server/src/login_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zm22/0voice_im-master/server/src/login_server/build
+CMAKE_BINARY_DIR = /home/zm22/teamtalk/server/src/login_server/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/login_server.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/login_server.dir/flags.make
 CMakeFiles/login_server.dir/HttpConn.cpp.o: CMakeFiles/login_server.dir/flags.make
 CMakeFiles/login_server.dir/HttpConn.cpp.o: ../HttpConn.cpp
 CMakeFiles/login_server.dir/HttpConn.cpp.o: CMakeFiles/login_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zm22/0voice_im-master/server/src/login_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/login_server.dir/HttpConn.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login_server.dir/HttpConn.cpp.o -MF CMakeFiles/login_server.dir/HttpConn.cpp.o.d -o CMakeFiles/login_server.dir/HttpConn.cpp.o -c /home/zm22/0voice_im-master/server/src/login_server/HttpConn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zm22/teamtalk/server/src/login_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/login_server.dir/HttpConn.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login_server.dir/HttpConn.cpp.o -MF CMakeFiles/login_server.dir/HttpConn.cpp.o.d -o CMakeFiles/login_server.dir/HttpConn.cpp.o -c /home/zm22/teamtalk/server/src/login_server/HttpConn.cpp
 
 CMakeFiles/login_server.dir/HttpConn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login_server.dir/HttpConn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zm22/0voice_im-master/server/src/login_server/HttpConn.cpp > CMakeFiles/login_server.dir/HttpConn.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zm22/teamtalk/server/src/login_server/HttpConn.cpp > CMakeFiles/login_server.dir/HttpConn.cpp.i
 
 CMakeFiles/login_server.dir/HttpConn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login_server.dir/HttpConn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zm22/0voice_im-master/server/src/login_server/HttpConn.cpp -o CMakeFiles/login_server.dir/HttpConn.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zm22/teamtalk/server/src/login_server/HttpConn.cpp -o CMakeFiles/login_server.dir/HttpConn.cpp.s
 
 CMakeFiles/login_server.dir/LoginConn.cpp.o: CMakeFiles/login_server.dir/flags.make
 CMakeFiles/login_server.dir/LoginConn.cpp.o: ../LoginConn.cpp
 CMakeFiles/login_server.dir/LoginConn.cpp.o: CMakeFiles/login_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zm22/0voice_im-master/server/src/login_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/login_server.dir/LoginConn.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login_server.dir/LoginConn.cpp.o -MF CMakeFiles/login_server.dir/LoginConn.cpp.o.d -o CMakeFiles/login_server.dir/LoginConn.cpp.o -c /home/zm22/0voice_im-master/server/src/login_server/LoginConn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zm22/teamtalk/server/src/login_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/login_server.dir/LoginConn.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login_server.dir/LoginConn.cpp.o -MF CMakeFiles/login_server.dir/LoginConn.cpp.o.d -o CMakeFiles/login_server.dir/LoginConn.cpp.o -c /home/zm22/teamtalk/server/src/login_server/LoginConn.cpp
 
 CMakeFiles/login_server.dir/LoginConn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login_server.dir/LoginConn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zm22/0voice_im-master/server/src/login_server/LoginConn.cpp > CMakeFiles/login_server.dir/LoginConn.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zm22/teamtalk/server/src/login_server/LoginConn.cpp > CMakeFiles/login_server.dir/LoginConn.cpp.i
 
 CMakeFiles/login_server.dir/LoginConn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login_server.dir/LoginConn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zm22/0voice_im-master/server/src/login_server/LoginConn.cpp -o CMakeFiles/login_server.dir/LoginConn.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zm22/teamtalk/server/src/login_server/LoginConn.cpp -o CMakeFiles/login_server.dir/LoginConn.cpp.s
 
 CMakeFiles/login_server.dir/ipparser.cpp.o: CMakeFiles/login_server.dir/flags.make
 CMakeFiles/login_server.dir/ipparser.cpp.o: ../ipparser.cpp
 CMakeFiles/login_server.dir/ipparser.cpp.o: CMakeFiles/login_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zm22/0voice_im-master/server/src/login_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/login_server.dir/ipparser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login_server.dir/ipparser.cpp.o -MF CMakeFiles/login_server.dir/ipparser.cpp.o.d -o CMakeFiles/login_server.dir/ipparser.cpp.o -c /home/zm22/0voice_im-master/server/src/login_server/ipparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zm22/teamtalk/server/src/login_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/login_server.dir/ipparser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login_server.dir/ipparser.cpp.o -MF CMakeFiles/login_server.dir/ipparser.cpp.o.d -o CMakeFiles/login_server.dir/ipparser.cpp.o -c /home/zm22/teamtalk/server/src/login_server/ipparser.cpp
 
 CMakeFiles/login_server.dir/ipparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login_server.dir/ipparser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zm22/0voice_im-master/server/src/login_server/ipparser.cpp > CMakeFiles/login_server.dir/ipparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zm22/teamtalk/server/src/login_server/ipparser.cpp > CMakeFiles/login_server.dir/ipparser.cpp.i
 
 CMakeFiles/login_server.dir/ipparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login_server.dir/ipparser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zm22/0voice_im-master/server/src/login_server/ipparser.cpp -o CMakeFiles/login_server.dir/ipparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zm22/teamtalk/server/src/login_server/ipparser.cpp -o CMakeFiles/login_server.dir/ipparser.cpp.s
 
 CMakeFiles/login_server.dir/login_server.cpp.o: CMakeFiles/login_server.dir/flags.make
 CMakeFiles/login_server.dir/login_server.cpp.o: ../login_server.cpp
 CMakeFiles/login_server.dir/login_server.cpp.o: CMakeFiles/login_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zm22/0voice_im-master/server/src/login_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/login_server.dir/login_server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login_server.dir/login_server.cpp.o -MF CMakeFiles/login_server.dir/login_server.cpp.o.d -o CMakeFiles/login_server.dir/login_server.cpp.o -c /home/zm22/0voice_im-master/server/src/login_server/login_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zm22/teamtalk/server/src/login_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/login_server.dir/login_server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login_server.dir/login_server.cpp.o -MF CMakeFiles/login_server.dir/login_server.cpp.o.d -o CMakeFiles/login_server.dir/login_server.cpp.o -c /home/zm22/teamtalk/server/src/login_server/login_server.cpp
 
 CMakeFiles/login_server.dir/login_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login_server.dir/login_server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zm22/0voice_im-master/server/src/login_server/login_server.cpp > CMakeFiles/login_server.dir/login_server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zm22/teamtalk/server/src/login_server/login_server.cpp > CMakeFiles/login_server.dir/login_server.cpp.i
 
 CMakeFiles/login_server.dir/login_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login_server.dir/login_server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zm22/0voice_im-master/server/src/login_server/login_server.cpp -o CMakeFiles/login_server.dir/login_server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zm22/teamtalk/server/src/login_server/login_server.cpp -o CMakeFiles/login_server.dir/login_server.cpp.s
 
 # Object files for target login_server
 login_server_OBJECTS = \
@@ -141,7 +141,7 @@ login_server: CMakeFiles/login_server.dir/ipparser.cpp.o
 login_server: CMakeFiles/login_server.dir/login_server.cpp.o
 login_server: CMakeFiles/login_server.dir/build.make
 login_server: CMakeFiles/login_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zm22/0voice_im-master/server/src/login_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable login_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zm22/teamtalk/server/src/login_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable login_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/login_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/login_server.dir/clean:
 .PHONY : CMakeFiles/login_server.dir/clean
 
 CMakeFiles/login_server.dir/depend:
-	cd /home/zm22/0voice_im-master/server/src/login_server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zm22/0voice_im-master/server/src/login_server /home/zm22/0voice_im-master/server/src/login_server /home/zm22/0voice_im-master/server/src/login_server/build /home/zm22/0voice_im-master/server/src/login_server/build /home/zm22/0voice_im-master/server/src/login_server/build/CMakeFiles/login_server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zm22/teamtalk/server/src/login_server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zm22/teamtalk/server/src/login_server /home/zm22/teamtalk/server/src/login_server /home/zm22/teamtalk/server/src/login_server/build /home/zm22/teamtalk/server/src/login_server/build /home/zm22/teamtalk/server/src/login_server/build/CMakeFiles/login_server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/login_server.dir/depend
 

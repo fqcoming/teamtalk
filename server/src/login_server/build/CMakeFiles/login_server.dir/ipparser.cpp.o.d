@@ -1,9 +1,9 @@
 CMakeFiles/login_server.dir/ipparser.cpp.o: \
- /home/zm22/0voice_im-master/server/src/login_server/ipparser.cpp \
+ /home/zm22/teamtalk/server/src/login_server/ipparser.cpp \
  /usr/include/stdc-predef.h \
- /home/zm22/0voice_im-master/server/src/login_server/ipparser.h \
- /home/zm22/0voice_im-master/server/src/login_server/../base/util.h \
- /home/zm22/0voice_im-master/server/src/login_server/../base/ostype.h \
+ /home/zm22/teamtalk/server/src/login_server/ipparser.h \
+ /home/zm22/teamtalk/server/src/login_server/../base/util.h \
+ /home/zm22/teamtalk/server/src/login_server/../base/ostype.h \
  /usr/include/x86_64-linux-gnu/sys/epoll.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -214,7 +214,7 @@ CMakeFiles/login_server.dir/ipparser.cpp.o: \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
  /usr/include/c++/11/backward/hash_fun.h \
- /home/zm22/0voice_im-master/server/src/login_server/../base/UtilPdu.h \
+ /home/zm22/teamtalk/server/src/login_server/../base/UtilPdu.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/stl_set.h \
@@ -227,10 +227,10 @@ CMakeFiles/login_server.dir/ipparser.cpp.o: \
  /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/zm22/0voice_im-master/server/src/login_server/../base/Lock.h \
+ /home/zm22/teamtalk/server/src/login_server/../base/Lock.h \
  /usr/include/c++/11/stdlib.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/zm22/0voice_im-master/server/src/login_server/../base/slog/slog_api.h \
+ /home/zm22/teamtalk/server/src/login_server/../base/slog/slog_api.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
  /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \

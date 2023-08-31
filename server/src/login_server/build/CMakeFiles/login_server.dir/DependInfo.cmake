@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zm22/0voice_im-master/server/src/login_server/HttpConn.cpp" "CMakeFiles/login_server.dir/HttpConn.cpp.o" "gcc" "CMakeFiles/login_server.dir/HttpConn.cpp.o.d"
-  "/home/zm22/0voice_im-master/server/src/login_server/LoginConn.cpp" "CMakeFiles/login_server.dir/LoginConn.cpp.o" "gcc" "CMakeFiles/login_server.dir/LoginConn.cpp.o.d"
-  "/home/zm22/0voice_im-master/server/src/login_server/ipparser.cpp" "CMakeFiles/login_server.dir/ipparser.cpp.o" "gcc" "CMakeFiles/login_server.dir/ipparser.cpp.o.d"
-  "/home/zm22/0voice_im-master/server/src/login_server/login_server.cpp" "CMakeFiles/login_server.dir/login_server.cpp.o" "gcc" "CMakeFiles/login_server.dir/login_server.cpp.o.d"
+  "/home/zm22/teamtalk/server/src/login_server/HttpConn.cpp" "CMakeFiles/login_server.dir/HttpConn.cpp.o" "gcc" "CMakeFiles/login_server.dir/HttpConn.cpp.o.d"
+  "/home/zm22/teamtalk/server/src/login_server/LoginConn.cpp" "CMakeFiles/login_server.dir/LoginConn.cpp.o" "gcc" "CMakeFiles/login_server.dir/LoginConn.cpp.o.d"
+  "/home/zm22/teamtalk/server/src/login_server/ipparser.cpp" "CMakeFiles/login_server.dir/ipparser.cpp.o" "gcc" "CMakeFiles/login_server.dir/ipparser.cpp.o.d"
+  "/home/zm22/teamtalk/server/src/login_server/login_server.cpp" "CMakeFiles/login_server.dir/login_server.cpp.o" "gcc" "CMakeFiles/login_server.dir/login_server.cpp.o.d"
   )
 
 # Targets to which this target links.
