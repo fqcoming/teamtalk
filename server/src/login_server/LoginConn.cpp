@@ -184,6 +184,9 @@ void CLoginConn::_HandleUserCntUpdate(CImPdu* pPdu)
 	}
 }
 
+
+
+
 void CLoginConn::_HandleMsgServRequest(CImPdu* pPdu)
 {
     IM::Login::IMMsgServReq msg;
