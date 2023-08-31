@@ -1,0 +1,67 @@
+﻿  stdafx.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\atlplus.h(26,10): warning C4467: 已弃用 ATL 属性的使用情况
+  GifSmiley.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\atlplus.h(26,10): warning C4467: 已弃用 ATL 属性的使用情况
+  GifSmileyCtrl.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\atlplus.h(26,10): warning C4467: 已弃用 ATL 属性的使用情况
+  mAniImage.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\atlplus.h(26,10): warning C4467: 已弃用 ATL 属性的使用情况
+  正在生成代码...
+    正在创建库 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\GifSmiley.lib 和对象 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\GifSmiley.exp
+  Microsoft (R) 32b/64b MIDL Compiler Version 8.01.0626 
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  Processing .\vc140.idl
+  vc140.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\prsht.idl
+  prsht.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\shared\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\shared\wtypesbase.idl
+  wtypesbase.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\shared\basetsd.h
+  basetsd.h
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\shared\guiddef.h
+  guiddef.h
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\MsHTML.idl
+  MsHTML.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\ocidl.idl
+  ocidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\oleidl.idl
+  oleidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\objidl.idl
+  objidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\servprov.idl
+  servprov.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\urlmon.idl
+  urlmon.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\msxml.idl
+  msxml.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\dimm.idl
+  dimm.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\shtypes.idl
+  shtypes.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\dispex.idl
+  dispex.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\shared\dxgitype.idl
+  dxgitype.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\shared\dxgicommon.idl
+  dxgicommon.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\shared\dxgiformat.idl
+  dxgiformat.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\MsHtmHst.idl
+  MsHtmHst.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\docobj.idl
+  docobj.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\ExDisp.idl
+  ExDisp.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\ObjSafe.idl
+  ObjSafe.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\oaidl.acf
+  oaidl.acf
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\um\ocidl.acf
+  ocidl.acf
+  GifSmiley2003.vcxproj -> F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\GifSmiley.dll

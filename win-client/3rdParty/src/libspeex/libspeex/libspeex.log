@@ -1,0 +1,91 @@
+﻿  bits.c
+  buffer.c
+  cb_search.c
+  exc_10_16_table.c
+  exc_10_32_table.c
+  exc_20_32_table.c
+  exc_5_256_table.c
+  exc_5_64_table.c
+  exc_8_128_table.c
+  fftwrap.c
+  filterbank.c
+  filters.c
+  gain_table.c
+  gain_table_lbr.c
+  hexc_10_32_table.c
+  hexc_table.c
+  high_lsp_tables.c
+  jitter.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\jitter.c(447,20): warning C4018: “<”: 有符号/无符号不匹配
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\jitter.c(696,20): warning C4018: “<”: 有符号/无符号不匹配
+  kiss_fft.c
+  kiss_fftr.c
+  正在编译...
+  lpc.c
+  lsp.c
+  lsp_tables_nb.c
+  ltp.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\ltp.c(502,12): warning C4456: “j”的声明隐藏了上一个本地声明
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\ltp.c(370,10): message : 参见“j”的声明
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\ltp.c(503,15): warning C4456: “tmp1”的声明隐藏了上一个本地声明
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\ltp.c(371,4): message : 参见“tmp1”的声明
+  mdf.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\mdf.c(730,28): warning C4456: “tmp32”的声明隐藏了上一个本地声明
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\mdf.c(706,17): message : 参见“tmp32”的声明
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\mdf.c(756,28): warning C4456: “tmp32”的声明隐藏了上一个本地声明
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\mdf.c(706,17): message : 参见“tmp32”的声明
+  modes.c
+  modes_wb.c
+  nb_celp.c
+  preprocess.c
+  quant_lsp.c
+  resample.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\resample.c(595,20): warning C4018: “<”: 有符号/无符号不匹配
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\resample.c(676,23): warning C4018: “<”: 有符号/无符号不匹配
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\resample.c(684,23): warning C4018: “<”: 有符号/无符号不匹配
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\resample.c(687,20): warning C4018: “<”: 有符号/无符号不匹配
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\resample.c(694,23): warning C4018: “<”: 有符号/无符号不匹配
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\resample.c(860,21): warning C4018: “<”: 有符号/无符号不匹配
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\resample.c(863,20): warning C4018: “<”: 有符号/无符号不匹配
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\resample.c(916,19): warning C4018: “<”: 有符号/无符号不匹配
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\resample.c(923,19): warning C4018: “<”: 有符号/无符号不匹配
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\resample.c(933,16): warning C4018: “<”: 有符号/无符号不匹配
+  sb_celp.c
+  scal.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\scal.c(152,11): warning C4189: “N”: 局部变量已初始化但不引用
+  smallft.c
+  speex.c
+  speex_callbacks.c
+  speex_header.c
+  stereo.c
+  testdenoise.c
+  testecho.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testecho.c(30,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testecho.c(31,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testecho.c(32,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在编译...
+  testenc.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testenc.c(73,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testenc.c(75,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testenc.c(79,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  testenc_uwb.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testenc_uwb.c(72,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testenc_uwb.c(74,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testenc_uwb.c(78,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  testenc_wb.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testenc_wb.c(76,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testenc_wb.c(78,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testenc_wb.c(82,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  testjitter.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testjitter.c(17,20): warning C4057: “=”:“char *”与“unsigned char *”在稍微不同的基类型间接寻址上不同
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\libspeex\testjitter.c(42,24): warning C4389: “!=”: 有符号/无符号不匹配
+  vbr.c
+  vq.c
+  window.c
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libspeex.lib) 与 Library 的 OutputFile 属性值(F:\0voice\vip\im\0voice_im\win-client\lib\Release\libspeex.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+testenc_wb.obj : warning LNK4006: _main 已在 testjitter.obj 中定义；已忽略第二个定义
+testenc_uwb.obj : warning LNK4006: _main 已在 testjitter.obj 中定义；已忽略第二个定义
+testenc.obj : warning LNK4006: _main 已在 testjitter.obj 中定义；已忽略第二个定义
+testecho.obj : warning LNK4006: _main 已在 testjitter.obj 中定义；已忽略第二个定义
+testdenoise.obj : warning LNK4006: _main 已在 testjitter.obj 中定义；已忽略第二个定义
+  libspeex.vcxproj -> F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libspeex.lib

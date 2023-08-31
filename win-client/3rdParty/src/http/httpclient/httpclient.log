@@ -1,0 +1,21 @@
+﻿  base64.cpp
+  dll_init.cpp
+  file_reader.cpp
+  file_writer.cpp
+  http_client.cpp
+  http_header_parser.cpp
+  http_post_file.cpp
+  http_request.cpp
+  http_response.cpp
+  http_response_receiver.cpp
+  proxy_socket .cpp
+  socket_helper.cpp
+  streaming_socket.cpp
+  url_parser.cpp
+  util.cpp
+    正在创建库 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\httpclient.lib 和对象 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\httpclient.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 672 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  httpclient.vcxproj -> F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\httpclient.dll

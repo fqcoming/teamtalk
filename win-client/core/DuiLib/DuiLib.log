@@ -1,0 +1,75 @@
+﻿  StdAfx.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Control\UIMenu.h(73,1): warning C4251: “ReceiverImpl<BOOL,DuiLib::ContextMenuParam>::observers_”: class“std::map<int,ObserverImplBase<ReturnT,ParamT> *,std::less<int>,std::allocator<std::pair<const int,ObserverImplBase<ReturnT,ParamT> *>>>”需要有 dll 接口由 class“ReceiverImpl<BOOL,DuiLib::ContextMenuParam>”的客户端使用
+          with
+          [
+              ReturnT=BOOL,
+              ParamT=DuiLib::ContextMenuParam
+          ]
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Control\observer_impl_base.hpp(181): message : 参见“std::map<int,ObserverImplBase<ReturnT,ParamT> *,std::less<int>,std::allocator<std::pair<const int,ObserverImplBase<ReturnT,ParamT> *>>>”的声明
+          with
+          [
+              ReturnT=BOOL,
+              ParamT=DuiLib::ContextMenuParam
+          ]
+  UIGifAnim.cpp
+  UIMenu.cpp
+  UIlib.cpp
+  DialogManager.cpp
+  UIShadow.cpp
+  WinImplBase.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  UIBase.cpp
+  UIContainer.cpp
+  UIControl.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Core\UIControl.cpp(676,40): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIDlgBuilder.cpp
+  UIManager.cpp
+  UIMarkup.cpp
+  UIRender.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Core\UIRender.cpp(1121,61): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Core\UIRender.cpp(1121,86): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Core\UIRender.cpp(1121,111): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Core\UIRender.cpp(1122,66): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Core\UIRender.cpp(1122,92): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Core\UIRender.cpp(1122,118): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Layout\UIHorizontalLayout.cpp(270,37): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Layout\UIVerticalLayout.cpp(253,37): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UIActiveX.cpp
+  UIButton.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Control\UIButton.cpp(117,35): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UICheckBox.cpp
+  UICombo.cpp
+  UIComboBox.cpp
+  UIDateTime.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Control\UIDateTime.cpp(231,35): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIEdit.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Control\UIEdit.cpp(208,35): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIFlash.cpp
+  UILabel.cpp
+  UIList.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Control\UIList.cpp(1460,44): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Control\UIList.cpp(2010,48): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+  UIScrollBar.cpp
+  UISlider.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Control\UISlider.cpp(243,36): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIText.cpp
+F:\0voice\vip\im\0voice_im\win-client\core\DuiLib\Control\UIText.cpp(52,37): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UITreeView.cpp
+  UIWebBrowser.cpp
+  正在生成代码...
+  stb_image.c
+  XUnzip.cpp
+    正在创建库 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\DuiLib.lib 和对象 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\DuiLib.exp
+  DuiLib.vcxproj -> F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\DuiLib.dll

@@ -1,0 +1,1214 @@
+2023-03-17 16:17:53,372 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 65535 
+2023-03-17 16:17:53,372 [ERROR IM] - <BaseSocket.cpp>|<66>|<Listen>,bind failed, err_code=98, server_ip=0.0.0.0, port=8000
+2023-03-17 16:19:13,338 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 65535 
+2023-03-17 16:19:13,338 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 114.215.169.66:8601 
+2023-03-17 16:19:13,338 [INFO  IM] - <DBServConn.cpp>|<68>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2023-03-17 16:19:13,338 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:19:13,339 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:19:13,339 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:19:13,339 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:19:13,339 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 127.0.0.1:8100 
+2023-03-17 16:19:13,339 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2023-03-17 16:19:13,340 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:19:13,340 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:19:13,340 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:19:13,340 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:19:13,340 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2023-03-17 16:19:13,340 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2023-03-17 16:19:13,341 [INFO  IM] - <FileServConn.cpp>|<137>|<OnConfirm>,connect to file server success 
+2023-03-17 16:19:13,348 [INFO  IM] - <FileServConn.cpp>|<282>|<_HandleFileServerIPRsp>,_HandleFileServerIPRsp -> 1.15.184.62 : 8600 
+2023-03-17 16:19:38,884 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:19:38,884 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:19:38,905 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 16:19:38,905 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 16:19:38,905 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 16:19:38,905 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 16:19:38,934 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:19:38,934 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=0. 
+2023-03-17 16:19:38,934 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:19:38,934 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 16:19:38,935 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:19:38,935 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=0. 
+2023-03-17 16:19:38,936 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:19:38,936 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 16:19:46,858 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:19:46,858 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=2
+2023-03-17 16:19:46,887 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:19:46,887 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=1. 
+2023-03-17 16:19:48,187 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=1
+2023-03-17 16:19:49,654 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:19:49,654 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:20:33,881 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 65535 
+2023-03-17 16:20:33,881 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 114.215.169.66:8601 
+2023-03-17 16:20:33,881 [INFO  IM] - <DBServConn.cpp>|<68>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2023-03-17 16:20:33,881 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:20:33,881 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:20:33,882 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:20:33,882 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:20:33,882 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 127.0.0.1:8100 
+2023-03-17 16:20:33,882 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2023-03-17 16:20:33,883 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:20:33,883 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:20:33,883 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:20:33,883 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:20:33,883 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2023-03-17 16:20:33,883 [INFO  IM] - <FileServConn.cpp>|<137>|<OnConfirm>,connect to file server success 
+2023-03-17 16:20:33,883 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2023-03-17 16:20:33,885 [INFO  IM] - <FileServConn.cpp>|<282>|<_HandleFileServerIPRsp>,_HandleFileServerIPRsp -> 1.15.184.62 : 8600 
+2023-03-17 16:20:37,532 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:20:37,532 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:20:37,542 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 16:20:37,543 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 16:20:37,543 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 16:20:37,543 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 16:20:37,571 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:20:37,571 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=0. 
+2023-03-17 16:20:37,572 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:20:37,572 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 16:20:37,574 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:20:37,574 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=0. 
+2023-03-17 16:20:37,574 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:20:37,574 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 16:20:43,807 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=1
+2023-03-17 16:20:43,807 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=2
+2023-03-17 16:20:43,807 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:20:43,836 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:20:43,836 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=1. 
+2023-03-17 16:20:44,832 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:21:16,410 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:22:50,420 [INFO  IM] - <MsgConn.cpp>|<240>|<OnTimer>,client timeout, handle=14, uid=1 
+2023-03-17 16:22:50,421 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=1 
+2023-03-17 16:22:57,600 [INFO  IM] - <FileServConn.cpp>|<168>|<OnTimer>,conn to file server timeout 
+2023-03-17 16:22:58,236 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:23:02,144 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:23:02,144 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:23:02,144 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:23:05,165 [ERROR IM] - <BaseSocket.cpp>|<141>|<Send>,send failed, err_code=32, len=16
+2023-03-17 16:23:05,165 [INFO  IM] - <LoginServConn.cpp>|<168>|<OnTimer>,conn to login server timeout 
+2023-03-17 16:23:06,112 [ERROR IM] - <BaseSocket.cpp>|<141>|<Send>,send failed, err_code=32, len=16
+2023-03-17 16:23:06,112 [INFO  IM] - <RouteServConn.cpp>|<213>|<OnTimer>,conn to route server timeout 
+2023-03-17 16:23:06,112 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:23:06,112 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=7, user_id=0 
+2023-03-17 16:23:06,112 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:23:06,112 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=8, user_id=0 
+2023-03-17 16:23:06,212 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 114.215.169.66:8601 
+2023-03-17 16:23:06,213 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:23:06,213 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:23:06,213 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:23:06,213 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:23:06,213 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 127.0.0.1:8100 
+2023-03-17 16:23:06,213 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2023-03-17 16:23:06,213 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:23:06,213 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:23:06,213 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:23:06,213 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:23:06,213 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2023-03-17 16:23:06,213 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2023-03-17 16:23:06,214 [INFO  IM] - <FileServConn.cpp>|<137>|<OnConfirm>,connect to file server success 
+2023-03-17 16:23:06,216 [INFO  IM] - <FileServConn.cpp>|<282>|<_HandleFileServerIPRsp>,_HandleFileServerIPRsp -> 1.15.184.62 : 8600 
+2023-03-17 16:23:09,143 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:23:09,144 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:23:09,154 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 16:23:09,154 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 16:23:09,155 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 16:23:09,155 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 16:23:09,181 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:23:09,181 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=0. 
+2023-03-17 16:23:09,181 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:23:09,181 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 16:23:09,183 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:23:09,183 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=0. 
+2023-03-17 16:23:09,183 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:23:09,183 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 16:23:19,475 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=2
+2023-03-17 16:23:34,815 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:26:22,954 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 65535 
+2023-03-17 16:26:22,956 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 114.215.169.66:8601 
+2023-03-17 16:26:22,956 [INFO  IM] - <DBServConn.cpp>|<68>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2023-03-17 16:26:22,956 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:26:22,957 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:26:22,957 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:26:22,957 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:26:22,958 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 127.0.0.1:8100 
+2023-03-17 16:26:22,958 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2023-03-17 16:26:22,959 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:26:22,959 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:26:22,959 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:26:22,959 [INFO  IM] - <FileServConn.cpp>|<137>|<OnConfirm>,connect to file server success 
+2023-03-17 16:26:22,959 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:26:22,959 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2023-03-17 16:26:22,959 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2023-03-17 16:26:22,960 [INFO  IM] - <FileServConn.cpp>|<282>|<_HandleFileServerIPRsp>,_HandleFileServerIPRsp -> 1.15.184.62 : 8600 
+2023-03-17 16:26:59,084 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:26:59,084 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:26:59,094 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 16:26:59,094 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 16:26:59,095 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 16:26:59,095 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 16:26:59,133 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:26:59,133 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 16:26:59,133 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:26:59,133 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=0. 
+2023-03-17 16:26:59,134 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:26:59,134 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 16:26:59,134 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:26:59,144 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:26:59,165 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=2
+2023-03-17 16:27:46,578 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:27:46,578 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=1. 
+2023-03-17 16:27:46,589 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:27:46,598 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:27:46,598 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=0. 
+2023-03-17 16:27:46,598 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:27:46,598 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=1.
+2023-03-17 16:27:46,601 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=1 
+2023-03-17 16:27:46,608 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=1
+2023-03-17 16:27:50,940 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 16:27:50,940 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=1 
+2023-03-17 16:27:50,941 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=2 
+2023-03-17 16:28:06,011 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:28:06,011 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:28:06,022 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 16:28:06,022 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 16:28:06,022 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 16:28:06,022 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 16:28:06,063 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:28:06,063 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 16:28:06,065 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:28:06,065 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=0. 
+2023-03-17 16:28:06,065 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:28:06,065 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:28:06,065 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 16:28:06,075 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:28:06,075 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=2
+2023-03-17 16:28:58,181 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:28:58,181 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=1. 
+2023-03-17 16:28:58,184 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:28:58,184 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=0. 
+2023-03-17 16:28:58,184 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:28:58,185 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:28:58,185 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=1.
+2023-03-17 16:28:58,185 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=1 
+2023-03-17 16:28:58,194 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=1
+2023-03-17 16:29:24,121 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 16:29:24,121 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=1 
+2023-03-17 16:29:24,122 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=2 
+2023-03-17 16:31:08,400 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:31:08,400 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:31:08,410 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 16:31:08,410 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 16:31:08,411 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 16:31:08,411 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 16:31:08,454 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:31:08,454 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 16:31:08,454 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:31:08,454 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=0. 
+2023-03-17 16:31:08,456 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:31:08,456 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 16:31:08,456 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:31:08,456 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=2
+2023-03-17 16:31:08,466 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:31:14,669 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:31:14,670 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=1. 
+2023-03-17 16:31:14,674 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:31:14,674 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=0. 
+2023-03-17 16:31:14,674 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:31:14,675 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:31:14,675 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=2.
+2023-03-17 16:31:14,675 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:31:14,675 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=2.
+2023-03-17 16:31:14,676 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=2 
+2023-03-17 16:31:14,676 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=2 
+2023-03-17 16:31:14,684 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=1
+2023-03-17 16:31:14,759 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0307
+
+2023-03-17 16:31:14,759 [INFO  IM] - <MsgConn.cpp>|<673>|<_HandleClientUnreadMsgCntRequest>,HandleClientUnreadMsgCntReq, from_id=1 
+2023-03-17 16:31:14,760 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0509
+
+2023-03-17 16:31:14,760 [INFO  IM] - <FileHandler.cpp>|<114>|<HandleClientFileHasOfflineReq>,HandleClientFileHasOfflineReq, req_id=1   
+2023-03-17 16:31:14,770 [INFO  IM] - <DBServConn.cpp>|<588>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=1, total_cnt=0, user_unread_cnt=0.
+2023-03-17 16:31:14,791 [INFO  IM] - <FileHandler.cpp>|<224>|<HandleFileHasOfflineRes>,HandleFileHasOfflineRes, req_id=1, file_cnt=0 
+2023-03-17 16:31:21,272 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0309
+
+2023-03-17 16:31:21,272 [INFO  IM] - <MsgConn.cpp>|<640>|<_HandleClientGetMsgListRequest>,HandleClientGetMsgListRequest, req_id=1, session_type=1, session_id=2, msg_id_begin=1, msg_cnt=10. 
+2023-03-17 16:31:21,282 [INFO  IM] - <DBServConn.cpp>|<455>|<_HandleGetMsgListResponse>,HandleGetMsgListResponse, userId=1, session_type=1, opposite_user_id=2, msg_id_begin=1, cnt=1.
+2023-03-17 16:31:22,986 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2023-03-17 16:31:23,845 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:31:23,845 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 1->2, msg_type=1, msg_id=0. 
+2023-03-17 16:31:25,451 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:31:25,451 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 1->2, cmd_msg: {"cmd_id":131073,"content":"writing","service_id":2}
+ 
+2023-03-17 16:31:29,433 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:31:29,433 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 1->2, msg_type=1, msg_id=0. 
+2023-03-17 16:31:50,034 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:31:50,960 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:31:50,961 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:31:51,962 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:31:52,963 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:31:52,964 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:31:54,038 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:31:54,038 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:31:54,038 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:31:54,038 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:31:55,040 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:31:55,040 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:32:23,020 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:32:25,031 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:32:25,031 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:32:26,026 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:32:26,026 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:32:26,027 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:32:28,030 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:32:28,030 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:32:28,031 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:32:28,031 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:32:29,040 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:32:29,040 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:32:56,984 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:32:58,988 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:32:58,988 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:32:59,990 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:32:59,990 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:32:59,990 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:33:01,994 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:33:01,994 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:33:01,994 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:33:01,994 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:33:02,997 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:33:02,997 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:33:30,046 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:33:32,051 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:33:32,051 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:33:33,053 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:33:33,053 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:33:33,053 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:33:35,057 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:33:35,057 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:33:35,057 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:33:35,057 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:33:35,959 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:33:35,959 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:34:04,029 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:34:05,977 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:34:05,977 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:34:05,977 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:34:06,978 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:34:06,978 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:34:09,037 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:34:09,037 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:34:09,037 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:34:09,038 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:34:09,038 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:34:09,038 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:34:37,013 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:34:40,015 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:34:40,016 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:34:40,016 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:34:40,016 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:34:40,016 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:34:43,020 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:34:43,021 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:34:43,021 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:34:43,021 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:34:43,021 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:34:43,021 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:35:10,053 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:35:13,057 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:35:13,057 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:35:13,057 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:35:13,057 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:35:15,961 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:35:15,961 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:35:15,961 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:36:23,054 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2023-03-17 16:37:23,758 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=8
+2023-03-17 16:37:25,806 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=11
+2023-03-17 16:37:25,806 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=10
+2023-03-17 16:37:25,806 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=9
+2023-03-17 16:37:31,030 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:37:33,033 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:37:33,033 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:37:33,033 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:39:40,974 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=8
+2023-03-17 16:39:43,022 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=11
+2023-03-17 16:39:43,022 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=10
+2023-03-17 16:39:43,022 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=9
+2023-03-17 16:39:55,992 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:39:59,038 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:39:59,038 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:39:59,038 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:41:06,023 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 16:41:06,023 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=1 
+2023-03-17 16:41:06,024 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=2 
+2023-03-17 16:41:24,047 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2023-03-17 16:42:06,382 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=8
+2023-03-17 16:42:08,430 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=11
+2023-03-17 16:42:08,430 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=10
+2023-03-17 16:42:08,430 [INFO  IM] - <DBServConn.cpp>|<176>|<OnClose>,onclose from db server handle=9
+2023-03-17 16:42:37,968 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:42:39,970 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:42:39,970 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:42:39,970 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:42:58,414 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:42:58,414 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 16:43:15,866 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:43:15,866 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 16:43:42,638 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:43:43,039 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:43:44,686 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:43:44,686 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:43:44,686 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:43:44,987 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:43:44,987 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:43:44,987 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2023-03-17 16:43:45,988 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:43:45,988 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:43:47,992 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:43:47,992 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:43:47,992 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2023-03-17 16:43:47,992 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:43:47,992 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:43:47,992 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-17 16:43:56,434 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:43:56,435 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:43:56,445 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 16:43:56,445 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 16:43:56,446 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 16:43:56,446 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 16:43:56,478 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:43:56,478 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 16:43:56,479 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:43:56,479 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=1678989884. 
+2023-03-17 16:43:56,479 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:43:56,479 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 16:43:56,479 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=0
+2023-03-17 16:43:56,489 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:43:56,489 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:43:56,506 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:43:56,506 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=1.
+2023-03-17 16:43:56,506 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=1 
+2023-03-17 16:43:56,515 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:43:56,515 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=0. 
+2023-03-17 16:43:56,515 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:43:56,515 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=2.
+2023-03-17 16:43:56,515 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=2 
+2023-03-17 16:43:56,520 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:43:56,520 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=1. 
+2023-03-17 16:43:56,520 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=1
+2023-03-17 16:43:56,530 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:43:56,596 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0307
+
+2023-03-17 16:43:56,596 [INFO  IM] - <MsgConn.cpp>|<673>|<_HandleClientUnreadMsgCntRequest>,HandleClientUnreadMsgCntReq, from_id=1 
+2023-03-17 16:43:56,596 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0509
+
+2023-03-17 16:43:56,596 [INFO  IM] - <FileHandler.cpp>|<114>|<HandleClientFileHasOfflineReq>,HandleClientFileHasOfflineReq, req_id=1   
+2023-03-17 16:43:56,607 [INFO  IM] - <FileHandler.cpp>|<224>|<HandleFileHasOfflineRes>,HandleFileHasOfflineRes, req_id=1, file_cnt=0 
+2023-03-17 16:43:56,607 [INFO  IM] - <DBServConn.cpp>|<588>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=1, total_cnt=0, user_unread_cnt=0.
+2023-03-17 16:44:26,405 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:44:26,405 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=wangbojing, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:44:26,416 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=wangbojing, result=0
+2023-03-17 16:44:26,416 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: wangbojing, uid: 2
+2023-03-17 16:44:26,416 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=2, login_status=1 
+2023-03-17 16:44:26,416 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=2, status=1 
+2023-03-17 16:44:26,464 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:44:26,464 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=2, latest_update_time=0.
+2023-03-17 16:44:26,465 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:44:26,465 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=2, latest_update_time=0. 
+2023-03-17 16:44:26,465 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:44:26,465 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=2. 
+2023-03-17 16:44:26,465 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=2, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:44:26,476 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=2, group_cnt=1. 
+2023-03-17 16:44:26,476 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=2, latest_update_time=1678989884, user_cnt=2
+2023-03-17 16:44:26,503 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:44:26,503 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=2, group_cnt=1. 
+2023-03-17 16:44:26,514 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=2, group_cnt=1. 
+2023-03-17 16:44:26,515 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:44:26,515 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=2, latest_update_time=0. 
+2023-03-17 16:44:26,517 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:44:26,517 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=2, query_count=2.
+2023-03-17 16:44:26,517 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=2, query_count=2 
+2023-03-17 16:44:26,518 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:44:26,518 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=2, query_count=2.
+2023-03-17 16:44:26,518 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=2, query_count=2 
+2023-03-17 16:44:26,527 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=2, session_cnt=1
+2023-03-17 16:44:26,576 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0307
+
+2023-03-17 16:44:26,576 [INFO  IM] - <MsgConn.cpp>|<673>|<_HandleClientUnreadMsgCntRequest>,HandleClientUnreadMsgCntReq, from_id=2 
+2023-03-17 16:44:26,576 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0509
+
+2023-03-17 16:44:26,576 [INFO  IM] - <FileHandler.cpp>|<114>|<HandleClientFileHasOfflineReq>,HandleClientFileHasOfflineReq, req_id=2   
+2023-03-17 16:44:26,587 [INFO  IM] - <DBServConn.cpp>|<588>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=2, total_cnt=2, user_unread_cnt=1.
+2023-03-17 16:44:26,587 [INFO  IM] - <FileHandler.cpp>|<224>|<HandleFileHasOfflineRes>,HandleFileHasOfflineRes, req_id=2, file_cnt=0 
+2023-03-17 16:44:26,614 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0309
+
+2023-03-17 16:44:26,614 [INFO  IM] - <MsgConn.cpp>|<640>|<_HandleClientGetMsgListRequest>,HandleClientGetMsgListRequest, req_id=2, session_type=1, session_id=1, msg_id_begin=2, msg_cnt=2. 
+2023-03-17 16:44:26,625 [INFO  IM] - <DBServConn.cpp>|<455>|<_HandleGetMsgListResponse>,HandleGetMsgListResponse, userId=2, session_type=1, opposite_user_id=1, msg_id_begin=2, cnt=2.
+2023-03-17 16:44:34,080 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0303
+
+2023-03-17 16:44:34,080 [INFO  IM] - <MsgConn.cpp>|<694>|<_HandleClientMsgReadAck>,HandleClientMsgReadAck, user_id=2, session_id=1, msg_id=2, session_type=1. 
+2023-03-17 16:44:36,338 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:44:36,338 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 2->1, msg_type=1, msg_id=0. 
+2023-03-17 16:44:36,359 [INFO  IM] - <DBServConn.cpp>|<508>|<_HandleMsgData>,HandleMsgData, from_user_id=2, to_user_id=1, msg_id=3.
+2023-03-17 16:44:36,369 [INFO  IM] - <DBServConn.cpp>|<739>|<_HandleGetDeviceTokenResponse>,HandleGetDeviceTokenResponse, user_token_cnt = 0.
+2023-03-17 16:44:36,391 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0302
+
+2023-03-17 16:44:38,116 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:44:38,116 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 2->1, cmd_msg: {"cmd_id":131073,"content":"writing","service_id":2}
+ 
+2023-03-17 16:44:39,289 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0303
+
+2023-03-17 16:44:39,289 [INFO  IM] - <MsgConn.cpp>|<694>|<_HandleClientMsgReadAck>,HandleClientMsgReadAck, user_id=1, session_id=2, msg_id=3, session_type=1. 
+2023-03-17 16:44:41,126 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:44:41,126 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 2->1, cmd_msg: {"cmd_id":131073,"content":"writing","service_id":2}
+ 
+2023-03-17 16:44:41,336 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:44:41,336 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 2->1, cmd_msg: {"cmd_id":131074,"content":"stop writing","service_id":2}
+ 
+2023-03-17 16:44:42,018 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:44:42,018 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 1->2, msg_type=1, msg_id=0. 
+2023-03-17 16:44:42,028 [INFO  IM] - <DBServConn.cpp>|<508>|<_HandleMsgData>,HandleMsgData, from_user_id=1, to_user_id=2, msg_id=4.
+2023-03-17 16:44:42,039 [INFO  IM] - <DBServConn.cpp>|<739>|<_HandleGetDeviceTokenResponse>,HandleGetDeviceTokenResponse, user_token_cnt = 0.
+2023-03-17 16:44:42,058 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0302
+
+2023-03-17 16:44:42,070 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0303
+
+2023-03-17 16:44:42,070 [INFO  IM] - <MsgConn.cpp>|<694>|<_HandleClientMsgReadAck>,HandleClientMsgReadAck, user_id=2, session_id=1, msg_id=4, session_type=1. 
+2023-03-17 16:44:44,073 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:44:44,073 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 1->2, cmd_msg: {"cmd_id":131073,"content":"writing","service_id":2}
+ 
+2023-03-17 16:44:47,010 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:44:47,011 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 1->2, cmd_msg: {"cmd_id":131074,"content":"stop writing","service_id":2}
+ 
+2023-03-17 16:45:05,737 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0405
+
+2023-03-17 16:45:05,738 [INFO  IM] - <GroupChat.cpp>|<306>|<HandleClientGroupCreateRequest>,HandleClientGroupCreateRequest, req_id=1, group_name=??????, avatar_url=, user_cnt=2 
+2023-03-17 16:45:05,758 [INFO  IM] - <GroupChat.cpp>|<341>|<HandleGroupCreateResponse>,HandleGroupCreateResponse, req_id=1, result=0, group_id=2, group_name=??????, member_cnt=2. 
+2023-03-17 16:46:02,918 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0309
+
+2023-03-17 16:46:02,918 [INFO  IM] - <MsgConn.cpp>|<640>|<_HandleClientGetMsgListRequest>,HandleClientGetMsgListRequest, req_id=2, session_type=1, session_id=1, msg_id_begin=4, msg_cnt=10. 
+2023-03-17 16:46:02,929 [INFO  IM] - <DBServConn.cpp>|<455>|<_HandleGetMsgListResponse>,HandleGetMsgListResponse, userId=2, session_type=1, opposite_user_id=1, msg_id_begin=4, cnt=4.
+2023-03-17 16:46:07,508 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:46:07,508 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 2->1, msg_type=1, msg_id=0. 
+2023-03-17 16:46:07,518 [INFO  IM] - <DBServConn.cpp>|<508>|<_HandleMsgData>,HandleMsgData, from_user_id=2, to_user_id=1, msg_id=5.
+2023-03-17 16:46:07,529 [INFO  IM] - <DBServConn.cpp>|<739>|<_HandleGetDeviceTokenResponse>,HandleGetDeviceTokenResponse, user_token_cnt = 0.
+2023-03-17 16:46:07,556 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0302
+
+2023-03-17 16:46:07,590 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0303
+
+2023-03-17 16:46:07,590 [INFO  IM] - <MsgConn.cpp>|<694>|<_HandleClientMsgReadAck>,HandleClientMsgReadAck, user_id=1, session_id=2, msg_id=5, session_type=1. 
+2023-03-17 16:46:12,273 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:46:12,273 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 2->1, cmd_msg: {"cmd_id":65537,"content":"shakewindow","service_id":1}
+ 
+2023-03-17 16:46:17,553 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 16:46:17,553 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=15, user_id=2 
+2023-03-17 16:46:17,554 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=2, status=2 
+2023-03-17 16:46:24,979 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=3, down_msg_miss_cnt=0 
+2023-03-17 16:46:30,555 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:46:30,555 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=wangbojing, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:46:30,565 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=wangbojing, result=0
+2023-03-17 16:46:30,565 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: wangbojing, uid: 2
+2023-03-17 16:46:30,566 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=2, login_status=1 
+2023-03-17 16:46:30,566 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=2, status=1 
+2023-03-17 16:46:30,596 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:46:30,596 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=2, latest_update_time=0.
+2023-03-17 16:46:30,597 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:46:30,597 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=2, latest_update_time=1678989884. 
+2023-03-17 16:46:30,598 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=2, latest_update_time=1678989884, user_cnt=0
+2023-03-17 16:46:30,598 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:46:30,598 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=2. 
+2023-03-17 16:46:30,598 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=2, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:46:30,608 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=2, group_cnt=1. 
+2023-03-17 16:46:30,629 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:46:30,629 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=2, query_count=1.
+2023-03-17 16:46:30,630 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=2, query_count=1 
+2023-03-17 16:46:30,634 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:46:30,634 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=2, group_cnt=1. 
+2023-03-17 16:46:30,644 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:46:30,644 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=2, latest_update_time=1679042767. 
+2023-03-17 16:46:30,644 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=2, group_cnt=1. 
+2023-03-17 16:46:30,645 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:46:30,645 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=2, query_count=2.
+2023-03-17 16:46:30,645 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=2, query_count=2 
+2023-03-17 16:46:30,654 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=2, session_cnt=0
+2023-03-17 16:46:30,737 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0307
+
+2023-03-17 16:46:30,737 [INFO  IM] - <MsgConn.cpp>|<673>|<_HandleClientUnreadMsgCntRequest>,HandleClientUnreadMsgCntReq, from_id=2 
+2023-03-17 16:46:30,737 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0509
+
+2023-03-17 16:46:30,737 [INFO  IM] - <FileHandler.cpp>|<114>|<HandleClientFileHasOfflineReq>,HandleClientFileHasOfflineReq, req_id=2   
+2023-03-17 16:46:30,747 [INFO  IM] - <DBServConn.cpp>|<588>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=2, total_cnt=0, user_unread_cnt=0.
+2023-03-17 16:46:30,747 [INFO  IM] - <FileHandler.cpp>|<224>|<HandleFileHasOfflineRes>,HandleFileHasOfflineRes, req_id=2, file_cnt=0 
+2023-03-17 16:46:35,543 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0309
+
+2023-03-17 16:46:35,543 [INFO  IM] - <MsgConn.cpp>|<640>|<_HandleClientGetMsgListRequest>,HandleClientGetMsgListRequest, req_id=2, session_type=1, session_id=1, msg_id_begin=5, msg_cnt=10. 
+2023-03-17 16:46:35,553 [INFO  IM] - <DBServConn.cpp>|<455>|<_HandleGetMsgListResponse>,HandleGetMsgListResponse, userId=2, session_type=1, opposite_user_id=1, msg_id_begin=5, cnt=5.
+2023-03-17 16:46:45,149 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0506
+
+2023-03-17 16:46:45,149 [INFO  IM] - <FileHandler.cpp>|<41>|<HandleClientFileRequest>,HandleClientFileRequest, 2->1, fileName: F:/config.ini, trans_mode: 1.
+2023-03-17 16:46:45,155 [INFO  IM] - <FileServConn.cpp>|<203>|<_HandleFileMsgTransRsp>,HandleFileMsgTransRsp, result: 0, from_user_id: 2, to_user_id: 1, file_name: F:/config.ini,         task_id: 317b7fd6-c55a-4549-903d-e8fa8cadb343, trans_mode: 1. 
+2023-03-17 16:47:08,193 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:47:08,193 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 2->1, msg_type=1, msg_id=0. 
+2023-03-17 16:47:08,203 [INFO  IM] - <DBServConn.cpp>|<508>|<_HandleMsgData>,HandleMsgData, from_user_id=2, to_user_id=1, msg_id=6.
+2023-03-17 16:47:08,214 [INFO  IM] - <DBServConn.cpp>|<739>|<_HandleGetDeviceTokenResponse>,HandleGetDeviceTokenResponse, user_token_cnt = 0.
+2023-03-17 16:47:08,236 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0302
+
+2023-03-17 16:47:08,251 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0303
+
+2023-03-17 16:47:08,251 [INFO  IM] - <MsgConn.cpp>|<694>|<_HandleClientMsgReadAck>,HandleClientMsgReadAck, user_id=1, session_id=2, msg_id=6, session_type=1. 
+2023-03-17 16:47:12,186 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:47:12,186 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 1->2, msg_type=1, msg_id=0. 
+2023-03-17 16:47:12,196 [INFO  IM] - <DBServConn.cpp>|<508>|<_HandleMsgData>,HandleMsgData, from_user_id=1, to_user_id=2, msg_id=7.
+2023-03-17 16:47:12,206 [INFO  IM] - <DBServConn.cpp>|<739>|<_HandleGetDeviceTokenResponse>,HandleGetDeviceTokenResponse, user_token_cnt = 0.
+2023-03-17 16:47:12,235 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0302
+
+2023-03-17 16:47:12,241 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0303
+
+2023-03-17 16:47:12,241 [INFO  IM] - <MsgConn.cpp>|<694>|<_HandleClientMsgReadAck>,HandleClientMsgReadAck, user_id=2, session_id=1, msg_id=7, session_type=1. 
+2023-03-17 16:47:14,291 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:47:14,291 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 1->2, cmd_msg: {"cmd_id":131073,"content":"writing","service_id":2}
+ 
+2023-03-17 16:47:17,179 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:47:17,179 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 1->2, cmd_msg: {"cmd_id":131074,"content":"stop writing","service_id":2}
+ 
+2023-03-17 16:47:30,013 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0506
+
+2023-03-17 16:47:30,014 [INFO  IM] - <FileHandler.cpp>|<41>|<HandleClientFileRequest>,HandleClientFileRequest, 1->2, fileName: F:/config.ini, trans_mode: 1.
+2023-03-17 16:47:30,015 [INFO  IM] - <FileServConn.cpp>|<203>|<_HandleFileMsgTransRsp>,HandleFileMsgTransRsp, result: 0, from_user_id: 1, to_user_id: 2, file_name: F:/config.ini,         task_id: 19cb6360-9111-4ffb-9a7a-ac581d7fa2ec, trans_mode: 1. 
+2023-03-17 16:47:39,637 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0506
+
+2023-03-17 16:47:39,637 [INFO  IM] - <FileHandler.cpp>|<41>|<HandleClientFileRequest>,HandleClientFileRequest, 1->2, fileName: F:/config.ini, trans_mode: 1.
+2023-03-17 16:47:39,638 [INFO  IM] - <FileServConn.cpp>|<203>|<_HandleFileMsgTransRsp>,HandleFileMsgTransRsp, result: 0, from_user_id: 1, to_user_id: 2, file_name: F:/config.ini,         task_id: d760b6a5-2d2a-4527-aa7c-13af945a07c0, trans_mode: 1. 
+2023-03-17 16:51:25,000 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=5, down_msg_miss_cnt=0 
+2023-03-17 16:53:56,090 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0305
+
+2023-03-17 16:54:28,963 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 16:54:28,963 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=1 
+2023-03-17 16:54:28,963 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=2 
+2023-03-17 16:54:30,688 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 16:54:30,688 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=15, user_id=2 
+2023-03-17 16:54:30,688 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=2, status=2 
+2023-03-17 16:56:25,978 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=5, down_msg_miss_cnt=0 
+2023-03-17 16:56:50,182 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:56:50,182 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=wangbojing, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:56:50,192 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=wangbojing, result=0
+2023-03-17 16:56:50,192 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: wangbojing, uid: 2
+2023-03-17 16:56:50,193 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=2, login_status=1 
+2023-03-17 16:56:50,193 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=2, status=1 
+2023-03-17 16:56:50,233 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:56:50,233 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=2, latest_update_time=0.
+2023-03-17 16:56:50,233 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:56:50,233 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=2, latest_update_time=1678989884. 
+2023-03-17 16:56:50,234 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=2, latest_update_time=1678989884, user_cnt=0
+2023-03-17 16:56:50,234 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:56:50,234 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=2. 
+2023-03-17 16:56:50,235 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=2, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:56:50,245 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=2, group_cnt=1. 
+2023-03-17 16:56:50,269 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:56:50,269 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=2, query_count=1.
+2023-03-17 16:56:50,269 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=2, query_count=1 
+2023-03-17 16:56:50,273 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:56:50,273 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=2, group_cnt=1. 
+2023-03-17 16:56:50,283 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=2, group_cnt=1. 
+2023-03-17 16:56:50,289 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:56:50,289 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=2, latest_update_time=1679042832. 
+2023-03-17 16:56:50,290 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:56:50,290 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=2, query_count=2.
+2023-03-17 16:56:50,290 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=2, query_count=2 
+2023-03-17 16:56:50,299 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=2, session_cnt=0
+2023-03-17 16:56:50,410 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0307
+
+2023-03-17 16:56:50,410 [INFO  IM] - <MsgConn.cpp>|<673>|<_HandleClientUnreadMsgCntRequest>,HandleClientUnreadMsgCntReq, from_id=2 
+2023-03-17 16:56:50,410 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0509
+
+2023-03-17 16:56:50,410 [INFO  IM] - <FileHandler.cpp>|<114>|<HandleClientFileHasOfflineReq>,HandleClientFileHasOfflineReq, req_id=2   
+2023-03-17 16:56:50,420 [INFO  IM] - <FileHandler.cpp>|<224>|<HandleFileHasOfflineRes>,HandleFileHasOfflineRes, req_id=2, file_cnt=0 
+2023-03-17 16:56:50,420 [INFO  IM] - <DBServConn.cpp>|<588>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=2, total_cnt=0, user_unread_cnt=0.
+2023-03-17 16:57:07,979 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 16:57:07,979 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 16:57:07,989 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 16:57:07,989 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 16:57:07,990 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 16:57:07,990 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 16:57:08,026 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 16:57:08,026 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 16:57:08,027 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 16:57:08,027 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=1678989884. 
+2023-03-17 16:57:08,028 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 16:57:08,028 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=0
+2023-03-17 16:57:08,028 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 16:57:08,028 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 16:57:08,038 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:57:08,062 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:57:08,062 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=1.
+2023-03-17 16:57:08,062 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=1 
+2023-03-17 16:57:08,066 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:57:08,066 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=1. 
+2023-03-17 16:57:08,071 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 16:57:08,071 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=1679042832. 
+2023-03-17 16:57:08,071 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:57:08,072 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 16:57:08,072 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=2.
+2023-03-17 16:57:08,072 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=2 
+2023-03-17 16:57:08,081 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=0
+2023-03-17 16:57:08,142 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0307
+
+2023-03-17 16:57:08,142 [INFO  IM] - <MsgConn.cpp>|<673>|<_HandleClientUnreadMsgCntRequest>,HandleClientUnreadMsgCntReq, from_id=1 
+2023-03-17 16:57:08,142 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0509
+
+2023-03-17 16:57:08,142 [INFO  IM] - <FileHandler.cpp>|<114>|<HandleClientFileHasOfflineReq>,HandleClientFileHasOfflineReq, req_id=1   
+2023-03-17 16:57:08,152 [INFO  IM] - <DBServConn.cpp>|<588>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=1, total_cnt=0, user_unread_cnt=0.
+2023-03-17 16:57:08,152 [INFO  IM] - <FileHandler.cpp>|<224>|<HandleFileHasOfflineRes>,HandleFileHasOfflineRes, req_id=1, file_cnt=0 
+2023-03-17 16:57:12,303 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0309
+
+2023-03-17 16:57:12,303 [INFO  IM] - <MsgConn.cpp>|<640>|<_HandleClientGetMsgListRequest>,HandleClientGetMsgListRequest, req_id=1, session_type=2, session_id=1, msg_id_begin=0, msg_cnt=10. 
+2023-03-17 16:57:12,314 [INFO  IM] - <DBServConn.cpp>|<455>|<_HandleGetMsgListResponse>,HandleGetMsgListResponse, userId=1, session_type=2, opposite_user_id=1, msg_id_begin=0, cnt=0.
+2023-03-17 16:57:15,211 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:57:15,211 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 1->1, msg_type=17, msg_id=0. 
+2023-03-17 16:57:15,221 [INFO  IM] - <GroupChat.cpp>|<213>|<HandleGroupMessage>,HandleGroupMsg, 1->1, msg id=1. 
+2023-03-17 16:57:15,231 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:57:15,231 [INFO  IM] - <GroupChat.cpp>|<129>|<HandleGroupInfoResponse>,GroupInfoRequest is send by server, group_id=1 
+2023-03-17 16:57:15,242 [INFO  IM] - <GroupChat.cpp>|<530>|<HandleGroupGetShieldByGroupResponse>,HandleGroupGetShieldByGroupResponse, shield_status_list_cnt: 2. 
+2023-03-17 16:57:15,242 [INFO  IM] - <DBServConn.cpp>|<739>|<_HandleGetDeviceTokenResponse>,HandleGetDeviceTokenResponse, user_token_cnt = 0.
+2023-03-17 16:57:20,778 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0309
+
+2023-03-17 16:57:20,778 [INFO  IM] - <MsgConn.cpp>|<640>|<_HandleClientGetMsgListRequest>,HandleClientGetMsgListRequest, req_id=2, session_type=1, session_id=1, msg_id_begin=7, msg_cnt=10. 
+2023-03-17 16:57:20,789 [INFO  IM] - <DBServConn.cpp>|<455>|<_HandleGetMsgListResponse>,HandleGetMsgListResponse, userId=2, session_type=1, opposite_user_id=1, msg_id_begin=7, cnt=7.
+2023-03-17 16:57:22,859 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:57:22,860 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 2->1, msg_type=1, msg_id=0. 
+2023-03-17 16:57:22,870 [INFO  IM] - <DBServConn.cpp>|<508>|<_HandleMsgData>,HandleMsgData, from_user_id=2, to_user_id=1, msg_id=8.
+2023-03-17 16:57:22,880 [INFO  IM] - <DBServConn.cpp>|<739>|<_HandleGetDeviceTokenResponse>,HandleGetDeviceTokenResponse, user_token_cnt = 0.
+2023-03-17 16:57:22,903 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0302
+
+2023-03-17 16:57:24,762 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:57:24,762 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 2->1, cmd_msg: {"cmd_id":131073,"content":"writing","service_id":2}
+ 
+2023-03-17 16:57:27,758 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:57:27,759 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 2->1, cmd_msg: {"cmd_id":131073,"content":"writing","service_id":2}
+ 
+2023-03-17 16:57:27,855 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0601
+
+2023-03-17 16:57:27,855 [INFO  IM] - <MsgConn.cpp>|<754>|<_HandleClientP2PCmdMsg>,HandleClientP2PCmdMsg, 2->1, cmd_msg: {"cmd_id":131074,"content":"stop writing","service_id":2}
+ 
+2023-03-17 16:57:33,316 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:57:33,316 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 2->1, msg_type=1, msg_id=0. 
+2023-03-17 16:57:33,327 [INFO  IM] - <DBServConn.cpp>|<508>|<_HandleMsgData>,HandleMsgData, from_user_id=2, to_user_id=1, msg_id=9.
+2023-03-17 16:57:33,337 [INFO  IM] - <DBServConn.cpp>|<739>|<_HandleGetDeviceTokenResponse>,HandleGetDeviceTokenResponse, user_token_cnt = 0.
+2023-03-17 16:57:33,362 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0302
+
+2023-03-17 16:57:38,696 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0303
+
+2023-03-17 16:57:38,696 [INFO  IM] - <MsgConn.cpp>|<694>|<_HandleClientMsgReadAck>,HandleClientMsgReadAck, user_id=1, session_id=2, msg_id=9, session_type=1. 
+2023-03-17 16:57:43,531 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0506
+
+2023-03-17 16:57:43,531 [INFO  IM] - <FileHandler.cpp>|<41>|<HandleClientFileRequest>,HandleClientFileRequest, 1->2, fileName: F:/config.ini, trans_mode: 1.
+2023-03-17 16:57:43,532 [INFO  IM] - <FileServConn.cpp>|<203>|<_HandleFileMsgTransRsp>,HandleFileMsgTransRsp, result: 0, from_user_id: 1, to_user_id: 2, file_name: F:/config.ini,         task_id: 81161f6e-8d25-47c5-bf6f-08aff102110f, trans_mode: 1. 
+2023-03-17 16:58:13,523 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0405
+
+2023-03-17 16:58:13,523 [INFO  IM] - <GroupChat.cpp>|<306>|<HandleClientGroupCreateRequest>,HandleClientGroupCreateRequest, req_id=1, group_name=?????????, avatar_url=, user_cnt=2 
+2023-03-17 16:58:13,543 [INFO  IM] - <GroupChat.cpp>|<341>|<HandleGroupCreateResponse>,HandleGroupCreateResponse, req_id=1, result=0, group_id=3, group_name=?????????, member_cnt=2. 
+2023-03-17 16:58:15,770 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0309
+
+2023-03-17 16:58:15,770 [INFO  IM] - <MsgConn.cpp>|<640>|<_HandleClientGetMsgListRequest>,HandleClientGetMsgListRequest, req_id=1, session_type=2, session_id=3, msg_id_begin=0, msg_cnt=10. 
+2023-03-17 16:58:15,780 [INFO  IM] - <DBServConn.cpp>|<455>|<_HandleGetMsgListResponse>,HandleGetMsgListResponse, userId=1, session_type=2, opposite_user_id=3, msg_id_begin=0, cnt=0.
+2023-03-17 16:58:17,812 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:58:17,812 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 1->3, msg_type=17, msg_id=0. 
+2023-03-17 16:58:17,832 [INFO  IM] - <GroupChat.cpp>|<213>|<HandleGroupMessage>,HandleGroupMsg, 1->3, msg id=1. 
+2023-03-17 16:58:17,842 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 16:58:17,842 [INFO  IM] - <GroupChat.cpp>|<129>|<HandleGroupInfoResponse>,GroupInfoRequest is send by server, group_id=3 
+2023-03-17 16:58:17,853 [INFO  IM] - <GroupChat.cpp>|<530>|<HandleGroupGetShieldByGroupResponse>,HandleGroupGetShieldByGroupResponse, shield_status_list_cnt: 2. 
+2023-03-17 16:58:17,863 [INFO  IM] - <DBServConn.cpp>|<739>|<_HandleGetDeviceTokenResponse>,HandleGetDeviceTokenResponse, user_token_cnt = 0.
+2023-03-17 16:58:17,902 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 16:58:17,902 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=2, group_cnt=1. 
+2023-03-17 16:58:17,912 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=2, group_cnt=1. 
+2023-03-17 16:58:21,622 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0303
+
+2023-03-17 16:58:21,622 [INFO  IM] - <MsgConn.cpp>|<694>|<_HandleClientMsgReadAck>,HandleClientMsgReadAck, user_id=2, session_id=3, msg_id=1, session_type=2. 
+2023-03-17 16:58:27,715 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0301
+
+2023-03-17 16:58:27,715 [INFO  IM] - <MsgConn.cpp>|<590>|<_HandleClientMsgData>,HandleClientMsgData, 2->3, msg_type=17, msg_id=0. 
+2023-03-17 16:58:27,725 [INFO  IM] - <GroupChat.cpp>|<213>|<HandleGroupMessage>,HandleGroupMsg, 2->3, msg id=2. 
+2023-03-17 16:58:27,736 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=2, group_cnt=1. 
+2023-03-17 16:58:27,736 [INFO  IM] - <GroupChat.cpp>|<129>|<HandleGroupInfoResponse>,GroupInfoRequest is send by server, group_id=3 
+2023-03-17 16:58:27,746 [INFO  IM] - <GroupChat.cpp>|<530>|<HandleGroupGetShieldByGroupResponse>,HandleGroupGetShieldByGroupResponse, shield_status_list_cnt: 2. 
+2023-03-17 16:58:27,757 [INFO  IM] - <DBServConn.cpp>|<739>|<_HandleGetDeviceTokenResponse>,HandleGetDeviceTokenResponse, user_token_cnt = 0.
+2023-03-17 16:58:27,803 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0303
+
+2023-03-17 16:58:27,803 [INFO  IM] - <MsgConn.cpp>|<694>|<_HandleClientMsgReadAck>,HandleClientMsgReadAck, user_id=1, session_id=3, msg_id=2, session_type=2. 
+2023-03-17 16:58:32,790 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0303
+
+2023-03-17 16:58:32,790 [INFO  IM] - <MsgConn.cpp>|<694>|<_HandleClientMsgReadAck>,HandleClientMsgReadAck, user_id=2, session_id=1, msg_id=1, session_type=2. 
+2023-03-17 17:01:25,997 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:06:26,996 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:06:50,091 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0305
+
+2023-03-17 17:07:07,170 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0305
+
+2023-03-17 17:09:31,658 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0506
+
+2023-03-17 17:09:31,658 [INFO  IM] - <FileHandler.cpp>|<41>|<HandleClientFileRequest>,HandleClientFileRequest, 1->2, fileName: F:/202211181668747719517191.png, trans_mode: 1.
+2023-03-17 17:09:31,659 [INFO  IM] - <FileServConn.cpp>|<203>|<_HandleFileMsgTransRsp>,HandleFileMsgTransRsp, result: 0, from_user_id: 1, to_user_id: 2, file_name: F:/202211181668747719517191.png,         task_id: a1999b68-c2da-413e-ac2b-760c6fe7b838, trans_mode: 1. 
+2023-03-17 17:11:09,889 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0506
+
+2023-03-17 17:11:09,889 [INFO  IM] - <FileHandler.cpp>|<41>|<HandleClientFileRequest>,HandleClientFileRequest, 2->1, fileName: F:/build_ffmepg.sh, trans_mode: 1.
+2023-03-17 17:11:09,891 [INFO  IM] - <FileServConn.cpp>|<203>|<_HandleFileMsgTransRsp>,HandleFileMsgTransRsp, result: 0, from_user_id: 2, to_user_id: 1, file_name: F:/build_ffmepg.sh,         task_id: 230f90bd-d04a-42b0-8c55-b8b9258d2161, trans_mode: 1. 
+2023-03-17 17:11:27,009 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:15:54,901 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=7 
+2023-03-17 17:15:57,971 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 114.215.169.66:8601 
+2023-03-17 17:15:57,973 [INFO  IM] - <FileServConn.cpp>|<137>|<OnConfirm>,connect to file server success 
+2023-03-17 17:15:57,975 [INFO  IM] - <FileServConn.cpp>|<282>|<_HandleFileServerIPRsp>,_HandleFileServerIPRsp -> 114.215.169.66 : 8600 
+2023-03-17 17:16:27,978 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:16:50,112 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0305
+
+2023-03-17 17:17:07,175 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0305
+
+2023-03-17 17:17:27,762 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0506
+
+2023-03-17 17:17:27,762 [INFO  IM] - <FileHandler.cpp>|<41>|<HandleClientFileRequest>,HandleClientFileRequest, 2->1, fileName: F:/zblog/????????????????????????????????????.docx, trans_mode: 1.
+2023-03-17 17:17:27,764 [INFO  IM] - <FileServConn.cpp>|<203>|<_HandleFileMsgTransRsp>,HandleFileMsgTransRsp, result: 0, from_user_id: 2, to_user_id: 1, file_name: F:/zblog/????????????????????????????????????.docx,         task_id: a9509e29-3a0b-4f6d-8f7e-22da687f7a67, trans_mode: 1. 
+2023-03-17 17:18:23,469 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0506
+
+2023-03-17 17:18:23,469 [INFO  IM] - <FileHandler.cpp>|<41>|<HandleClientFileRequest>,HandleClientFileRequest, 1->2, fileName: E:/?????????????????????221016/43-????????????-obs/winsdksetup.exe, trans_mode: 1.
+2023-03-17 17:18:23,470 [INFO  IM] - <FileServConn.cpp>|<203>|<_HandleFileMsgTransRsp>,HandleFileMsgTransRsp, result: 0, from_user_id: 1, to_user_id: 2, file_name: E:/?????????????????????221016/43-????????????-obs/winsdksetup.exe,         task_id: 2e0c02bd-64ef-4fb8-8169-b235ebee3223, trans_mode: 1. 
+2023-03-17 17:19:24,279 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:19:24,279 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=2 
+2023-03-17 17:19:24,280 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=2, status=2 
+2023-03-17 17:19:26,072 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:19:26,073 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=15, user_id=1 
+2023-03-17 17:19:26,073 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=2 
+2023-03-17 17:21:27,988 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:24:45,670 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 17:24:45,670 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 17:24:45,680 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 17:24:45,680 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 17:24:45,681 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 17:24:45,681 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 17:24:45,718 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 17:24:45,718 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 17:24:45,718 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 17:24:45,718 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=1678989884. 
+2023-03-17 17:24:45,718 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 17:24:45,718 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 17:24:45,719 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=0
+2023-03-17 17:24:45,728 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 17:24:45,728 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=1. 
+2023-03-17 17:24:45,745 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 17:24:45,745 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=1.
+2023-03-17 17:24:45,745 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=1 
+2023-03-17 17:24:45,760 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 17:24:45,760 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=1. 
+2023-03-17 17:24:45,770 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 17:24:45,779 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 17:24:45,779 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=1679043507. 
+2023-03-17 17:24:45,779 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 17:24:45,779 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=2.
+2023-03-17 17:24:45,779 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=2 
+2023-03-17 17:24:45,789 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=0
+2023-03-17 17:24:45,916 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0307
+
+2023-03-17 17:24:45,916 [INFO  IM] - <MsgConn.cpp>|<673>|<_HandleClientUnreadMsgCntRequest>,HandleClientUnreadMsgCntReq, from_id=1 
+2023-03-17 17:24:45,917 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0509
+
+2023-03-17 17:24:45,917 [INFO  IM] - <FileHandler.cpp>|<114>|<HandleClientFileHasOfflineReq>,HandleClientFileHasOfflineReq, req_id=1   
+2023-03-17 17:24:45,927 [INFO  IM] - <DBServConn.cpp>|<588>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=1, total_cnt=0, user_unread_cnt=0.
+2023-03-17 17:24:45,927 [INFO  IM] - <FileHandler.cpp>|<224>|<HandleFileHasOfflineRes>,HandleFileHasOfflineRes, req_id=1, file_cnt=0 
+2023-03-17 17:25:24,104 [INFO  IM] - <GroupChat.cpp>|<456>|<HandleGroupChangeMemberBroadcast>,HandleChangeMemberBroadcast, change_type=2, group_id=2, chg_user_cnt=1, cur_user_cnt=1. 
+2023-03-17 17:25:25,075 [INFO  IM] - <GroupChat.cpp>|<456>|<HandleGroupChangeMemberBroadcast>,HandleChangeMemberBroadcast, change_type=2, group_id=2, chg_user_cnt=1, cur_user_cnt=0. 
+2023-03-17 17:26:28,032 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:26:39,371 [INFO  IM] - <GroupChat.cpp>|<456>|<HandleGroupChangeMemberBroadcast>,HandleChangeMemberBroadcast, change_type=1, group_id=4, chg_user_cnt=1, cur_user_cnt=2. 
+2023-03-17 17:26:39,397 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 17:26:39,397 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=1. 
+2023-03-17 17:26:39,407 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 17:31:28,980 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:34:45,393 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0305
+
+2023-03-17 17:36:28,992 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:37:02,915 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:37:02,915 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=1 
+2023-03-17 17:37:02,915 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=2 
+2023-03-17 17:40:39,288 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 17:40:39,288 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 17:40:39,298 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 17:40:39,298 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 17:40:39,299 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 17:40:39,299 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 17:40:39,336 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 17:40:39,336 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 17:40:39,336 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 17:40:39,336 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=1678989884. 
+2023-03-17 17:40:39,337 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=0
+2023-03-17 17:40:39,337 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 17:40:39,338 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 17:40:39,348 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 17:40:39,348 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=2. 
+2023-03-17 17:40:39,369 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 17:40:39,369 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=1.
+2023-03-17 17:40:39,369 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=1 
+2023-03-17 17:40:39,381 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 17:40:39,381 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=2. 
+2023-03-17 17:40:39,391 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=2. 
+2023-03-17 17:40:39,392 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 17:40:39,392 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=1679043507. 
+2023-03-17 17:40:39,393 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 17:40:39,393 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=2.
+2023-03-17 17:40:39,393 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=2 
+2023-03-17 17:40:39,402 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=0
+2023-03-17 17:40:39,550 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0307
+
+2023-03-17 17:40:39,550 [INFO  IM] - <MsgConn.cpp>|<673>|<_HandleClientUnreadMsgCntRequest>,HandleClientUnreadMsgCntReq, from_id=1 
+2023-03-17 17:40:39,551 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0509
+
+2023-03-17 17:40:39,551 [INFO  IM] - <FileHandler.cpp>|<114>|<HandleClientFileHasOfflineReq>,HandleClientFileHasOfflineReq, req_id=1   
+2023-03-17 17:40:39,562 [INFO  IM] - <DBServConn.cpp>|<588>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=1, total_cnt=0, user_unread_cnt=0.
+2023-03-17 17:40:39,562 [INFO  IM] - <FileHandler.cpp>|<224>|<HandleFileHasOfflineRes>,HandleFileHasOfflineRes, req_id=1, file_cnt=0 
+2023-03-17 17:41:21,597 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:41:21,597 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=1 
+2023-03-17 17:41:21,598 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=2 
+2023-03-17 17:41:29,983 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:45:50,177 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:45:50,177 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:45:59,322 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:45:59,322 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:46:08,348 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:46:08,348 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:46:10,428 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0xa103
+
+2023-03-17 17:46:10,428 [INFO  IM] - <MsgConn.cpp>|<386>|<HandlePdu>,wrong msg, cmd id=41219, user id=0. 
+2023-03-17 17:46:17,386 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:46:17,386 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:46:26,509 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:46:26,509 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:46:30,978 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:46:35,550 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:46:35,550 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:46:44,632 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:46:44,632 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:46:53,697 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:46:53,697 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:47:02,777 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:47:02,777 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:47:11,926 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:47:11,926 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:47:21,086 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:47:21,086 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:47:30,186 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:47:30,186 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:47:39,271 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:47:39,271 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:47:48,321 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:47:48,321 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:47:57,425 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:47:57,425 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:48:06,458 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:48:06,458 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:48:15,482 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:48:15,482 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:48:27,526 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:48:27,526 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:48:36,568 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:48:36,569 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:48:45,622 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:48:45,622 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:48:54,681 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:48:54,681 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:49:04,402 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:49:04,402 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:49:06,477 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0000
+
+2023-03-17 17:49:06,477 [INFO  IM] - <MsgConn.cpp>|<386>|<HandlePdu>,wrong msg, cmd id=0, user id=0. 
+2023-03-17 17:49:13,455 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:49:13,455 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:49:17,542 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0000
+
+2023-03-17 17:49:17,542 [INFO  IM] - <MsgConn.cpp>|<386>|<HandlePdu>,wrong msg, cmd id=0, user id=0. 
+2023-03-17 17:49:24,502 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:49:24,502 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:49:33,766 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:49:33,766 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:49:42,922 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:49:42,922 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:49:51,944 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:49:51,944 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:50:01,001 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:50:01,001 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:50:13,071 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:50:13,072 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:50:25,137 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:50:25,137 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:50:34,175 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:50:34,175 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:50:43,202 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:50:43,202 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:50:52,280 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:50:52,280 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:51:01,327 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:51:01,327 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:51:10,459 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:51:10,459 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:51:20,046 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:51:20,046 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:51:29,105 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:51:29,105 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:51:30,981 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 17:51:38,170 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:51:38,170 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:51:47,242 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:51:47,242 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:51:56,304 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:51:56,304 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:52:05,656 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:52:05,656 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:52:16,466 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:52:16,466 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:52:27,021 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:52:27,021 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:52:36,116 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:52:36,116 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:52:45,242 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:52:45,242 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:52:54,312 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:52:54,312 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:53:03,343 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:53:03,343 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:53:12,430 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:53:12,431 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:53:21,453 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:53:21,453 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:53:30,510 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:53:30,510 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:53:39,572 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:53:39,572 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:53:48,609 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:53:48,609 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:53:57,721 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:53:57,721 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:54:06,852 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:54:06,852 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:54:15,953 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:54:15,953 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:54:25,014 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 17:54:25,015 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2023-03-17 17:56:30,985 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:01:31,993 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:06:32,988 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:11:33,977 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:16:33,990 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:21:34,984 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:26:35,976 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:31:35,980 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:36:36,982 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:41:36,987 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:46:37,981 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:51:38,979 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 18:56:38,985 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:01:38,986 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:06:39,983 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:11:39,987 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:16:40,984 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:21:40,987 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:26:41,980 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:31:42,018 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:36:42,975 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:41:43,019 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:46:43,987 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:51:44,978 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 19:56:44,989 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:01:45,982 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:06:45,985 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:11:45,986 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:16:46,986 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:21:47,983 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:26:47,987 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:31:48,983 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:36:48,984 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:41:49,981 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:46:49,986 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:51:50,986 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 20:56:50,987 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:01:51,982 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:06:52,983 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:11:52,986 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:16:52,988 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:21:53,986 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:26:54,982 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:31:55,980 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:36:55,984 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:41:56,979 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:46:56,984 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:51:57,985 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 21:56:58,980 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 22:01:58,982 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 22:05:25,098 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2023-03-17 22:05:25,098 [INFO  IM] - <MsgConn.cpp>|<450>|<_HandleLoginRequest>,HandleLoginReq, user_name=liaoqingfu, status=1, client_type=1, client=win_10086, 
+2023-03-17 22:05:25,109 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=liaoqingfu, result=0
+2023-03-17 22:05:25,109 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: liaoqingfu, uid: 1
+2023-03-17 22:05:25,110 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2023-03-17 22:05:25,110 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2023-03-17 22:05:25,192 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2023-03-17 22:05:25,192 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2023-03-17 22:05:25,192 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2023-03-17 22:05:25,192 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=0. 
+2023-03-17 22:05:25,192 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2023-03-17 22:05:25,192 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2023-03-17 22:05:25,203 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse size:32, user_id=1, latest_update_time=1678988800, dept_cnt=1.
+2023-03-17 22:05:25,203 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1678989884, user_cnt=2
+2023-03-17 22:05:25,203 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=2. 
+2023-03-17 22:05:25,263 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2023-03-17 22:05:25,263 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=0. 
+2023-03-17 22:05:25,263 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 22:05:25,263 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=1.
+2023-03-17 22:05:25,263 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 22:05:25,263 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=2. 
+2023-03-17 22:05:25,263 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=1 
+2023-03-17 22:05:25,263 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2023-03-17 22:05:25,263 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=2.
+2023-03-17 22:05:25,263 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=2 
+2023-03-17 22:05:25,273 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=2. 
+2023-03-17 22:05:25,273 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=3
+2023-03-17 22:05:25,488 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0403
+
+2023-03-17 22:05:25,488 [INFO  IM] - <GroupChat.cpp>|<88>|<HandleClientGroupInfoRequest>,HandleClientGroupInfoRequest, user_id=1, group_cnt=1. 
+2023-03-17 22:05:25,490 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0307
+
+2023-03-17 22:05:25,490 [INFO  IM] - <MsgConn.cpp>|<673>|<_HandleClientUnreadMsgCntRequest>,HandleClientUnreadMsgCntReq, from_id=1 
+2023-03-17 22:05:25,490 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0509
+
+2023-03-17 22:05:25,490 [INFO  IM] - <FileHandler.cpp>|<114>|<HandleClientFileHasOfflineReq>,HandleClientFileHasOfflineReq, req_id=1   
+2023-03-17 22:05:25,490 [INFO  IM] - <GroupChat.cpp>|<122>|<HandleGroupInfoResponse>,HandleGroupInfoResponse, user_id=1, group_cnt=1. 
+2023-03-17 22:05:25,500 [INFO  IM] - <DBServConn.cpp>|<588>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=1, total_cnt=0, user_unread_cnt=0.
+2023-03-17 22:05:25,500 [INFO  IM] - <FileHandler.cpp>|<224>|<HandleFileHasOfflineRes>,HandleFileHasOfflineRes, req_id=1, file_cnt=0 
+2023-03-17 22:05:52,762 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2023-03-17 22:05:52,762 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=1 
+2023-03-17 22:05:52,763 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=2 
+2023-03-17 22:06:59,983 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 
+2023-03-17 22:11:59,985 [INFO  IM] - <MsgConn.cpp>|<61>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=7, down_msg_miss_cnt=0 

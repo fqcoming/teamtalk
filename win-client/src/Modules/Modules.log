@@ -1,0 +1,17 @@
+﻿    正在创建库 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\Modules.lib 和对象 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\Modules.exp
+  正在生成代码
+  0 of 15037 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+libprotobuf-lite.lib(generated_message_util.obj) : warning LNK4099: 未找到 PDB“libprotobuf.pdb”(使用“libprotobuf-lite.lib(generated_message_util.obj)”或在“F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libprotobuf.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(coded_stream.obj) : warning LNK4099: 未找到 PDB“libprotobuf.pdb”(使用“libprotobuf-lite.lib(coded_stream.obj)”或在“F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libprotobuf.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(zero_copy_stream.obj) : warning LNK4099: 未找到 PDB“libprotobuf.pdb”(使用“libprotobuf-lite.lib(zero_copy_stream.obj)”或在“F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libprotobuf.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(zero_copy_stream_impl_lite.obj) : warning LNK4099: 未找到 PDB“libprotobuf.pdb”(使用“libprotobuf-lite.lib(zero_copy_stream_impl_lite.obj)”或在“F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libprotobuf.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(message_lite.obj) : warning LNK4099: 未找到 PDB“libprotobuf.pdb”(使用“libprotobuf-lite.lib(message_lite.obj)”或在“F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libprotobuf.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(repeated_field.obj) : warning LNK4099: 未找到 PDB“libprotobuf.pdb”(使用“libprotobuf-lite.lib(repeated_field.obj)”或在“F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libprotobuf.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(atomicops_internals_x86_msvc.obj) : warning LNK4099: 未找到 PDB“libprotobuf.pdb”(使用“libprotobuf-lite.lib(atomicops_internals_x86_msvc.obj)”或在“F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libprotobuf.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(common.obj) : warning LNK4099: 未找到 PDB“libprotobuf.pdb”(使用“libprotobuf-lite.lib(common.obj)”或在“F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libprotobuf.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(once.obj) : warning LNK4099: 未找到 PDB“libprotobuf.pdb”(使用“libprotobuf-lite.lib(once.obj)”或在“F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libprotobuf.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(wire_format_lite.obj) : warning LNK4099: 未找到 PDB“libprotobuf.pdb”(使用“libprotobuf-lite.lib(wire_format_lite.obj)”或在“F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libprotobuf.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  Modules.vcxproj -> F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\Modules.dll

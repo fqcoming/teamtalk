@@ -1,0 +1,3 @@
+/home/zm22/0voice_im-master/server/src/login_server/build/CMakeFiles/login_server.dir
+/home/zm22/0voice_im-master/server/src/login_server/build/CMakeFiles/edit_cache.dir
+/home/zm22/0voice_im-master/server/src/login_server/build/CMakeFiles/rebuild_cache.dir

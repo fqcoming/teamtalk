@@ -1,0 +1,12 @@
+﻿  bitwise.c
+  framing.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libogg\src\framing.c(715,24): warning C4456: “page”的声明隐藏了上一个本地声明
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libogg\src\framing.c(660,18): message : 参见“page”的声明
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libogg\src\framing.c(716,15): warning C4456: “bytes”的声明隐藏了上一个本地声明
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libogg\src\framing.c(662,8): message : 参见“bytes”的声明
+    正在创建库 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\libogg.lib 和对象 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\libogg.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 72 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  libogg_dynamic.vcxproj -> F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\libogg.dll

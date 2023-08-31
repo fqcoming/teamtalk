@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+F:\0voice\vip\im\win-client\core\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  teamtalk.cpp
+  MainDialog.cpp
+  MainDialog_Event.cpp
+  MainDialog_TrayIcon.cpp
+  正在生成代码...
+libprotobuf-lite.lib(atomicops_internals_x86_msvc.obj) : warning LNK4099: 未找到 PDB“libprotobuf-lite.pdb”(使用“libprotobuf-lite.lib(atomicops_internals_x86_msvc.obj)”或在“F:\0voice\vip\im\win-client\bin\teamtalk\Debug\libprotobuf-lite.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(common.obj) : warning LNK4099: 未找到 PDB“libprotobuf-lite.pdb”(使用“libprotobuf-lite.lib(common.obj)”或在“F:\0voice\vip\im\win-client\bin\teamtalk\Debug\libprotobuf-lite.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libprotobuf-lite.lib(once.obj) : warning LNK4099: 未找到 PDB“libprotobuf-lite.pdb”(使用“libprotobuf-lite.lib(once.obj)”或在“F:\0voice\vip\im\win-client\bin\teamtalk\Debug\libprotobuf-lite.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  teamtalk.vcxproj -> F:\0voice\vip\im\win-client\bin\teamtalk\Debug\0voice_im.exe

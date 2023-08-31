@@ -1,0 +1,30 @@
+﻿  getopt.c
+  getopt1.c
+  skeleton.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\src\skeleton.c(15,56): warning C4142: "write_ogg_page_to_file": 类型的良性重定义
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\src\skeleton.h(56): message : 参见“write_ogg_page_to_file”的声明
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\src\skeleton.c(36,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  speexdec.c
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\DDlog.h(32,11): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\DDlog.h(33,11): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\DDlog.h(31,5): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\DDlog.h(50,11): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\DDlog.h(51,11): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\DDlog.h(52,11): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\DDlog.h(46,9): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\DDlog.h(49,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\DDlog.h(53,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\DDlog.h(58,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\src\speexdec.c(171,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\src\speexdec.c(339,136): warning C4244: “=”: 从“ogg_int64_t”转换到“int”，可能丢失数据
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\src\speexdec.c(505,15): warning C4013: “_endthread”未定义；假设外部返回 int
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\src\speexdec.c(298,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\src\speexdec.c(423,29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\src\speexdec.c(530,19): warning C4013: “startPlayAudio”未定义；假设外部返回 int
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\libspeex\src\speexdec.c(536,16): warning C4013: “MessagePump”未定义；假设外部返回 int
+  wav_io.c
+  wave_out.c
+  正在生成代码
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+  已完成代码的生成
+  speexdec.vcxproj -> F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\speexdec.exe

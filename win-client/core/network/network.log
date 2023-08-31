@@ -1,0 +1,29 @@
+﻿  dllmain.cpp
+  yaolog.cpp
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\yaolog\yaolog.cpp(1041,69): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+F:\0voice\vip\im\0voice_im\win-client\3rdParty\src\yaolog\yaolog.cpp(1059,65): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+  BaseSocket.cpp
+  EventDispatch.cpp
+  imconn.cpp
+  ImCore.cpp
+  Lock.cpp
+  netlib.cpp
+  network.cpp
+  Operation.cpp
+F:\0voice\vip\im\0voice_im\win-client\include\network\Exception.h(18,1): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“imcore::Exception”的基
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_exception.h(48): message : 参见“std::exception”的声明
+F:\0voice\vip\im\0voice_im\win-client\include\network\Exception.h(17): message : 参见“imcore::Exception”的声明
+  OperationManager.cpp
+F:\0voice\vip\im\0voice_im\win-client\include\network\Operation.h(58,20): warning C4251: “imcore::Operation::m_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“imcore::Operation”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  TcpSocketsManager.cpp
+  TTPBHeader.cpp
+  util.cpp
+  UtilPdu.cpp
+  stdafx.cpp
+    正在创建库 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\network.lib 和对象 F:\0voice\vip\im\0voice_im\win-client\solution\..\lib\Release\network.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 1672 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  network.vcxproj -> F:\0voice\vip\im\0voice_im\win-client\bin\teamtalk\Release\network.dll
